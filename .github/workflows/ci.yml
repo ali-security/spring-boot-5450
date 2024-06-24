@@ -6,7 +6,6 @@ jobs:
   ci:
     name: "CI"
     runs-on: ubuntu-latest
-    container: springci/spring-framework-ci:2.6.x
     steps:
       - uses: actions/checkout@v2
       - name: Pre CI script
